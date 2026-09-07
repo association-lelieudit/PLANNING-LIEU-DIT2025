@@ -43,6 +43,7 @@
     .art{background:var(--rose);border-color:var(--rose-bord)}
     .enf{background:var(--enfant);border-color:var(--enfant-bord)}
     .done{background:var(--gris-c);border-color:var(--gris-c-bord);opacity:.6}
+    .rech{background:var(--gris-c);border-color:var(--gris-c-bord)}
     .rdv{margin:0 36px 28px;background:#fff;border:1px solid var(--bord);border-top:3px solid var(--jaune);border-radius:3px;padding:14px 18px}
     .rdv h3{font-family:'DM Serif Display',serif;font-weight:normal;font-size:15px;margin-bottom:5px}
     .rdv p{font-size:12px;color:#444}
@@ -54,7 +55,7 @@
 <header>
   <div class="h-titre">
     <h1>Le lieu-dit</h1>
-    <p>Planning des activités · mis à jour mai 2026</p>
+    <p>Planning des activités · mis à jour septembre 2026</p>
   </div>
   <div class="h-contact">
     <strong>Maison associative La Vie-là, Nyon</strong>
@@ -68,6 +69,7 @@
   <span class="l-item"><span class="l-dot" style="background:var(--orange-bord)"></span>Informatique</span>
   <span class="l-item"><span class="l-dot" style="background:var(--rose-bord)"></span>Atelier créatif / Art-thérapie</span>
   <span class="l-item"><span class="l-dot" style="background:var(--enfant-bord)"></span>Accueil enfants</span>
+  <span class="l-item"><span class="l-dot" style="background:var(--gris-c-bord)"></span>Recherche d'emploi</span>
 </div>
 <div class="wrap">
 <table>
@@ -85,24 +87,25 @@
     <tr>
       <td class="heure">9h30–11h00</td>
       <td>
-        <div class="c deb"><b>Français débutant</b><span class="prof">Marie-Noëlle</span><span class="tag-complet">Complet</span></div>
+        <div class="c deb"><b>Français débutant</b><span class="prof">Marie-Noëlle</span></div>
         <div class="c inter"><b>Français intermédiaire</b><span class="prof">Elena</span></div>
+        <div class="c enf"><b>Accueil enfants</b><span class="prof">Assistante maternelle</span></div>
       </td>
       <td>
-        <div class="c inter"><b>Français intermédiaire</b><span class="prof">Barbara</span><span class="tag-complet">Complet</span></div>
+        <div class="c inter"><b>Français intermédiaire</b><span class="prof">Barbara</span></div>
         <div class="c av"><b>Français avancé</b><span class="prof">Marie-Claire R.</span></div>
         <div class="c deb"><b>Français débutant</b><span class="prof">Ana</span></div>
         <div class="c enf"><b>Accueil enfants</b><span class="prof">Assistante maternelle</span></div>
       </td>
-      <td><div class="c info"><b>Informatique</b><span class="prof">Nicolas</span><span class="tag-complet">Complet</span></div></td>
+      <td><div class="c info"><b>Informatique</b><span class="prof">Nicolas</span></div></td>
       <td>
-        <div class="c av"><b>Français avancé</b><span class="prof">Monique ou Claire-Annette</span><span class="tag-complet">Complet</span></div>
+        <div class="c av"><b>Français avancé</b><span class="prof">Monique ou Claire-Annette</span></div>
         <div class="c deb"><b>Français débutant</b><span class="prof">Mirta</span></div>
         <div class="c enf"><b>Accueil enfants</b><span class="prof">Assistante maternelle</span></div>
       </td>
       <td>
-        <div class="c art"><b>Atelier créatif / Art-thérapie</b><span class="prof">Prochaines et dernières dates :</span><br>
-        <span style="font-size:11px;font-weight:700;color:#a0005a;margin-top:3px;display:inline-block;">12 · 19 · 26 juin 2026</span></div>
+        <div class="c art"><b>Atelier créatif / Art-thérapie</b><span class="prof">Prochaines dates :</span><br>
+        <span style="font-size:11px;font-weight:700;color:#a0005a;margin-top:3px;display:inline-block;">11 · 18 sept · 2 · 9 · 30 oct · 6 · 13 · 20 nov</span></div>
       </td>
       <td class="vide"></td>
     </tr>
@@ -110,12 +113,15 @@
       <td class="heure">11h00–12h30<br><small style="font-weight:400">(11h10 français)</small></td>
       <td><div class="c deb"><b>Français débutant</b><span class="prof">Elena</span></div></td>
       <td class="vide"></td><td class="vide"></td><td class="vide"></td>
-      <td><div class="c done"><b>Recherche d'emploi</b><span class="prof">Guillaume</span><span class="tag-info">Module terminé</span></div></td>
+      <td>
+        <div class="c rech"><b>Recherche d'emploi</b><span class="prof">Guillaume · 8 personnes max · dès le 29 octobre</span><br>
+        <span style="font-size:11px;font-weight:600;margin-top:2px;display:inline-block;">Env. 12 cours de 1h30 · octobre à janvier</span></div>
+      </td>
       <td class="vide"></td>
     </tr>
     <tr>
       <td class="heure">14h00–16h00</td>
-      <td><div class="c av"><b>Français avancé</b><span class="prof">Claire</span><span class="tag-complet">Complet</span></div></td>
+      <td><div class="c av"><b>Français avancé</b><span class="prof">Claire</span></div></td>
       <td class="vide"></td>
       <td><div class="c deb"><b>Français débutant</b><span class="prof">Claire-Annette / Marie-Ange</span></div></td>
       <td><div class="c deb"><b>Français débutant</b><span class="prof">Susanne</span></div></td>
